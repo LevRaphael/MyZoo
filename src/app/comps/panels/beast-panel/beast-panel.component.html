@@ -1,0 +1,14 @@
+<h1>Here's what you can see in our zoo</h1>
+
+<div>
+    <div>
+        <h2>Beasts</h2>
+            <ul>
+                <li  *ngFor="let b of ourBeasts.beasts"> {{ b.name }} </li>
+            </ul>
+    </div>
+
+    <div>
+      <app-beasts></app-beasts>
+    </div>
+</div>

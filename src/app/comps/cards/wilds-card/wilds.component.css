@@ -1,0 +1,16 @@
+
+
+img{
+    width: 30%;
+    height: 200px;
+    min-height: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div > h3 > div{
+    text-align: center;
+}

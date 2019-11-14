@@ -1,0 +1,15 @@
+.myHeader{
+    background-color:black;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.logo{width: 16%;}
+.logo > img {width: 90%;}
+
+.nameUser{
+    color: azure
+}
+
+img{border-radius: 100px;}

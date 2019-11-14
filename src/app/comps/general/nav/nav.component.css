@@ -1,0 +1,19 @@
+.animals > li{
+    color: azure;
+    justify-content: space-around;
+    width: 50%; 
+    margin: 25px;
+   
+}
+
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ul{
+    display: block;
+    display: flex;
+}
+

@@ -1,0 +1,17 @@
+
+img{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div > h3 > div{
+    text-align: center;
+}
+
+background{
+    color: tan
+} 
