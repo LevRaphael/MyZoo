@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -28,7 +29,7 @@ import { WildPanelComponent } from './comps/panels/wild-panel/wild-panel.compone
     WildPanelComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

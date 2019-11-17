@@ -1,5 +1,6 @@
 import { BeastsService } from './../../../services/beasts.service';
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from 'selenium-webdriver/http';
 
 @Component({
   selector: 'app-beast-panel',
@@ -14,3 +15,4 @@ export class BeastPanelComponent implements OnInit {
   }
 
 }
+
